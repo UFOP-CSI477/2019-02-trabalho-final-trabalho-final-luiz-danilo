@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Solicitação de serviço</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+  </head>
+
+
+  <body>
+
+    <div class="jumbotron text-center">
+      <h1>Seja bem-vindo(a) ao VipDesk - A solução na palma da sua mão!</h1> <br>
+
+      <p>Preencha as informações a seguir para abrir um chamado solicitando um de nossos técnicos!</p>
+    </div>
+
+    <form action="index.html" method="post" class="jumbotron">
+
+
+      <label for="usuario"> Usuário</label>
+      <input type="text" name="usuario" id="usuario">
+
+	    <br>
+
+      <label for="usuario">Departamento</label>
+      <input type="text" name="departamento" id="departamento" placeholder="Setor">
+
+      <br>
+
+      <label for="">Relate o problema</label>
+      <input type="text" name="problema" id="problema" placeholder="Observações">
+
+    	<br>
+
+  	  <LABEL for="serviços">Serviços </LABEL>
+  	  <select name="serviços" id="serviços">
+      <option disabled selected value="0">Selecione o tipo de serviço:</option>
+  		<option value="1">Assistência em informática</option>option>
+  		<option value="2">Backup</option>option>
+  		<option value="3">Camera</option>option>
+  		<option value="4">Email</option>option>
+  		<option value="5">Formatação da máquina</option>option>
+      <option value="5">Impressora</option>option>
+      <option value="5">Manutenção de hardware</option>option>
+      <option value="5">Manutenção de rede</option>option>
+      <option value="5">Manutenção de software</option>option>
+      <option value="5">Telefonia</option>option>
+      <option value="5">Troca de estabilizador</option>option>
+      <option value="5">Troca de mouse</option>option>
+      <option value="5">Troca de teclado</option>option>
+      <option value="5">Troca de toner</option>option>
+      <option value="5">Outros</option>option>
+      <option value="5">Sistema</option>option>
+
+	 </select>
+  <br>
+
+
+   <label for="data">Data de solicitação </label>
+   <input type="date" name="data" id="data">
+
+   <br>
+   <input class="btn btn-success" type="submit" name="chamdo" value="Abrir Chamado"><br>
+
+
+    </form>
+
+    <a href="index.html">Voltar a página inicial</a>
+
+    <footer class="text-center">
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col col-md-0">
+            </div>
+
+            <div class="footer-col col-md-4">
+            </div>
+
+            <div class="footer-col col-md-4">
+              VipDesk - A solução na palma da sua mão!
+              <br><img class="img-fluid img-centered" src="img/android-icon-48x48.png" alt=""><br>
+              <br>Danilo Caldeira<br>Luiz Carlos Tech
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>

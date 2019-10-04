@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="br" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro de usuário - VipDesk</title>
+
+    <link rel="stylesheet" href="./css/bootstrap.css">
+
+  </head>
+  <body>
+    <div class="jumbotron text-center">
+      <h1>Seja bem-vindo(a) ao VipDesk - A solução na palma da sua mão!</h1> <br>
+
+      <p>Com o VipDesk você tem o suporte, manutenção e melhorias de tudo que você precisar no e com um serviço de qualidade!!! Crie já sua conta!</p>
+    </div>
+
+    <form action="index.html" method="post" class="jumbotron">
+
+       <label for="">Nome:</label>
+       <input type="text" name="nome" id="nome" placeholder="Nome Completo">
+
+       <br>
+
+       <label for="usuario">Departamento</label>
+       <input type="text" name="departamento" id="departamento" placeholder="Setor">
+
+       <br>
+
+       <label for="">Login</label>
+       <input type="text" name="login" id="login" placeholder="Email">
+
+       <br>
+
+       <label for="senha">Senha</label>
+       <input type="password" name="senha" id="senha" placeholder="******">
+
+	      <br>
+
+
+        <label>Selecione o tipo de usuário: </label>
+
+
+      	<input type="checkbox" id="tecnico" name="area[0]">
+      	<label for="tecnico">Técnico</label>
+
+      	<input type="checkbox" id="colaborador" name="area[1]">
+      	<label for="colaborador">Colaborador</label>
+
+
+       <br>
+
+       <label for="data">Data de nascimento: </label>
+       <input type="date" name="data" id="data">
+
+       <br>
+       <input class="btn btn-success" type="submit" name="cadastrar" value="Cadastrar"><br>
+
+
+      </form>
+      <a href="login.html">Voltar a página inicial</a>
+
+      <footer class="text-center">
+        <div class="footer-below">
+          <div class="container">
+            <div class="row">
+              <div class="footer-col col-md-0">
+              </div>
+
+              <div class="footer-col col-md-4">
+              </div>
+
+              <div class="footer-col col-md-4">
+                VipDesk - A solução na palma da sua mão!
+                <br><img class="img-fluid img-centered" src="img/android-icon-48x48.png" alt=""><br>
+                Danilo Caldeira<br>Luiz Carlos Tech
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+  </body>
+</html>
