@@ -19,15 +19,14 @@
 
   Este projeto terá as seguintes funcionalidades:
 
-   * Cadastro dos diversos usuários e solicitantes de serviços, técnicos e as tarefas a serem solicitadas;
+   * Cadastro dos diversos usuários e solicitantes de serviços, setores, técnicos e as tarefas a serem solicitadas;
    * O usuário poderá abrir uma solicitação de ordem de serviço;
    * O usuário poderá selecionar o tipo de serviço através de um formulário.
-   * O técnico poderá iniciar o desenvolvimento da atividade segundo uma ordem de prioridade estabelecida pelo sistema;
+   * O técnico poderá iniciar o desenvolvimento da atividade;
    * O técnico poderá dar como concluída a ordem de serviço;
-   * O usuário terá a opção de classificar a qualidade do serviço com uma nota de 0 a 5;
-   * O usuário terá a opção de fazer um comentário ou observação a respeito do serviço prestado pelo técnico;
-   * O técnico terá o opção de acrescentar novos tipos de serviços;
-   * O usuário poderá acessar através da aba perfil, os serviços que já foram solicitados por ele.
+   * O técnico poderá controlar suas tarefas classificando-as por status atual: Tarefa Solicitada, Em Processamento, Progresso, Em revisão, Finalizado.
+   * O sistema de login, contém opção para logoff, controle de seção e acesso.
+   * Todas as funcionalidades contém o CRUD completo.
 
 ### 3. Restrições
 
@@ -37,6 +36,5 @@
 
 
 ### 4. Protótipo
-  
-  Foram elaborados 4 protótipos para as seguintes páginas: Inicial, Cadastro de usuário, Login, Solicitação de serviço, que podem ser encontradas no Github na pasta de protótipos.
 
+  Foram elaborados 4 protótipos para as seguintes páginas: Inicial, Cadastro de usuário, Login, Solicitação de serviço, que podem ser encontradas no Github na pasta de protótipos.
